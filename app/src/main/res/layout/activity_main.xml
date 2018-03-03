@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.elyec.myaplicationaltice.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/topText"
+        android:text="@string/tex_name"
+        android:layout_gravity="center"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/institucion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/institucion"
+        style="@style/topText"
+        android:layout_gravity="center"
+
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <TextView
+        android:id="@+id/frase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/frase"
+        style="@style/topText"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="246dp" />
+    <Button
+        android:id="@+id/linearLayoutVertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="linear Layout Vertical"
+        />
+    <Button
+        android:id="@+id/linearLayoutHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Linear Layout Horizontal"
+        />
+    <Button
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Relative Layout"
+        />
+    <Button
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Table Layout"
+        />
+    <Button
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Frame Layout"
+        />
+    <Button
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="List View"
+        />
+    <Button
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Grid View"
+        />
+</LinearLayout>

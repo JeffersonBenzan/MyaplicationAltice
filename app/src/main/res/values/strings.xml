@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My aplication Altice</string>
+    <string name="tex_name">Jefferson Benzan Tapia</string>
+    <string name="institucion">Apec</string>
+    <string name="frase">Fe, que todo llega</string>
+    <string name="title_activity_launcher">LauncherActivity</string>
+
+</resources>
