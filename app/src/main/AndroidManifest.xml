@@ -26,7 +26,8 @@
         <activity
             android:name=".LauncherActivity"
             android:label="@string/title_activity_launcher"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ScrollViewActivity"></activity>
     </application>
 
 </manifest>
