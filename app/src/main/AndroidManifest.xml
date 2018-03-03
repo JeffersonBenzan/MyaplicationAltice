@@ -9,13 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".MainActivity" />
         <activity android:name=".LinearLayoutVerticalActivity" />
         <activity android:name=".LinearLayoutHorizontal" />
         <activity android:name=".RalativeLayoutActivity" />
@@ -27,7 +21,19 @@
             android:name=".LauncherActivity"
             android:label="@string/title_activity_launcher"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ScrollViewActivity"></activity>
+        <activity android:name=".ScrollViewActivity" />
+        <activity android:name=".EditTextActivity"></activity>
+        <activity android:name=".AutoCompleteTextViewActivity" />
+        <activity android:name=".ImageButtonActivity">
+
+        </activity>
+        <activity android:name=".RadioGroupActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
